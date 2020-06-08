@@ -1,0 +1,178 @@
+body {
+    background: cadetblue;
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: cursive;
+    font-size: larger;
+}
+
+tr, td {
+    border: 2px solid black;
+    width: 135px;
+    height: 135px;
+    background: white;
+}
+
+.box1:hover, .box1:focus, .box1:active {
+    background: blue;
+}
+
+.box2:hover, .box2:focus, .box2:active {
+    background: blueviolet;
+}
+
+.box3:hover, .box3:focus, .box3:active {
+    background: brown;
+}
+
+.box4:hover, .box4:focus, .box4:active {
+    background: burlywood;
+}
+
+.box5:hover, .box5:focus, .box5:active {
+    background: burlywood;
+}
+
+.box6:hover, .box6:focus, .box6:active {
+    background: cadetblue;
+}
+
+.box7:hover, .box7:focus, .box7:active {
+    background: chartreuse;
+}
+
+.box8:hover, .box8:focus, .box8:active {
+    background: chocolate;
+}
+
+.box9:hover, .box9:focus, .box9:active {
+    background: coral;
+}
+
+.box10:hover, .box10:focus, .box10:active {
+    background: cornflowerblue;
+}
+
+.box11:hover, .box11:focus, .box11:active {
+    background: crimson;
+}
+
+.box12:hover, .box12:focus, .box12:active {
+    background: darkgoldenrod;
+}
+
+.box13:hover, .box13:focus, .box13:active {
+    background: cyan;
+}
+
+.box14:hover, .box14:focus, .box14:active {
+    background: darkblue;
+}
+
+.box15:hover, .box15:focus, .box15:active {
+    background: darkgrey;
+}
+
+.box16:hover, .box16:focus, .box16:active {
+    background: darkgreen;
+}
+
+.box17:hover, .box17:focus, .box17:active {
+    background: darkkhaki;
+}
+
+.box18:hover, .box18:focus, .box18:active {
+    background: darkmagenta;
+}
+
+.box19:hover, .box19:focus, .box19:active {
+    background: darkolivegreen;
+}
+
+.box20:hover, .box20:focus, .box20:active {
+    background: darkorange;
+}
+
+.box21:hover, .box21:focus, .box21:active {
+    background: darkorchid;
+}
+
+.box22:hover, .box22:focus, .box22:active {
+    background: darkred;
+}
+
+.box23:hover, .box23:focus, .box23:active {
+    background: darksalmon;
+}
+
+.box24:hover, .box24:focus, .box24:active {
+    background: forestgreen;
+}
+
+.box25:hover, .box25:focus, .box25:active {
+    background: fuchsia;
+}
+
+.box26:hover, .box26:focus, .box26:active {
+    background: gold;
+}
+
+.box27:hover, .box27:focus, .box27:active {
+    background: gray;
+}
+
+.box28:hover, .box28:focus, .box28:active {
+    background: greenyellow;
+}
+
+.box29:hover, .box29:focus, .box29:active {
+    background: hotpink;
+}
+
+.box30:hover, .box30:focus, .box30:active {
+    background: indigo;
+}
+
+.box31:hover, .box31:focus, .box31:active {
+    background: khaki;
+}
+
+.box32:hover, .box32:focus, .box32:active {
+    background: lawngreen;
+}
+
+.box33:hover, .box33:focus, .box33:active {
+    background: lightcoral;
+}
+
+.box34:hover, .box34:focus, .box34:active {
+    background: lightgreen;
+}
+
+.box35:hover, .box35:focus, .box35:active {
+    background: mediumseagreen;
+}
+
+.box36:hover, .box36:focus, .box36:active {
+    background: mediumvioletred;
+}
+
+.box37:hover, .box37:focus, .box37:active {
+    background: olive;
+}
+
+.box38:hover, .box38:focus, .box38:active {
+    background: palevioletred;
+}
+
+.box39:hover, .box39:focus, .box39:active {
+    background: orangered;
+}
+
+.box40:hover, .box40:focus, .box40:active {
+    background: peru;
+}
