@@ -25,6 +25,37 @@ body {
     vertical-align: bottom;
 }
 
+.log {
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    vertical-align: middle;
+    width: 140px;
+    height: 50px;
+    animation: none;
+    border: 1px solid white;
+    float: right;
+    overflow: hidden;
+    margin-top: 2%;
+    padding-right: 2%;
+    overflow: hidden;
+}
+
+.log:hover {
+    width: 140px;
+    height: 50px;
+    margin-top: 2%;
+    padding-right: 2%;
+    background: rgba(255, 255, 255, 0.637);
+    color: rgb(41, 41, 41);
+}
+
+
+
 section {
     background: rgb(41, 41, 41);
     width: 100%;
