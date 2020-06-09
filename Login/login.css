@@ -185,7 +185,7 @@
   /*------------------------------------------------------------------------------------------*/
 
   body {
-      background-image: url(img/fondo.jpg);
+      background-image: url(img/fondo.png);
       background-size: cover;
       background-attachment: fixed;
       background-repeat: no-repeat;
@@ -249,6 +249,7 @@
     border: 2px solid rgb(57, 221, 57);
     outline: none;
     cursor: pointer;
+    padding-bottom: 3%;
   }
 
   .submit:hover {
