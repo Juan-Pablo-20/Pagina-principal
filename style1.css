@@ -68,6 +68,7 @@ hr {
     margin-top: 2%;
     padding-right: 2%;
     overflow: hidden;
+    outline: none;
 }
 
 .log:hover {
