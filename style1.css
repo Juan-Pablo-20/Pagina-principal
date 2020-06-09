@@ -43,13 +43,6 @@ hr {
 
 /*-------------------------------------------------------------------------------------------------------*/
 
-.login {
-    color: aliceblue;
-    overflow: hidden;
-    float: left;
-    vertical-align: bottom;
-}
-
 .log {
     background: transparent;
     border: none;
@@ -81,20 +74,14 @@ hr {
     color: rgb(41, 41, 41);
 }
 
-.user {
-    width: 20%;
-    height: 35%;
-    overflow: hidden;
-}
-
 .sesion_block {
-    width: 25%;
-    height: 15%;
-    float: right;
-    overflow: hidden;
-    margin-right: 10%;
+overflow: hidden;
+vertical-align: middle;
+float: right;
+margin-right: 5%;
 }
 
+/*
 @media screen and (max-width: 1200px) {
     .sesion_block {
         width: 30%;
@@ -179,6 +166,7 @@ hr {
         height: 25%;
     }
 }
+*/
 
 /*-------------------------------------------------------------------------------------------------------*/
 
