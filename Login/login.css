@@ -235,6 +235,7 @@
     font-size: 20px;
     float: left;
     font-family: cursive;
+    width: 50%;
   }
 
   .submit {
@@ -255,4 +256,38 @@
   .submit:hover {
     background: rgba(128, 128, 128, 0.418);
     color: rgb(37, 35, 35);
+  }
+
+  .usuario, .contraseña {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    float: left;
+  }
+
+  @media screen and (max-width: 880px) {
+    body {
+      background: url(img/fondo2.png);
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    body {
+      background: url(img/fondo3.png);
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    body {
+      background: url(img/fondo4.png);
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
   }
