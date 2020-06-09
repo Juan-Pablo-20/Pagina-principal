@@ -186,8 +186,9 @@
 
   body {
       background-image: url(img/fondo.jpg);
-      background-size: 100% 100%;
+      background-size: cover;
       background-attachment: fixed;
+      background-repeat: no-repeat;
   }
 
   .login {
@@ -211,6 +212,7 @@
     top: 20%;
     left: 25%;
     background-color: rgba(54, 53, 53, 0.61);
+    float: left;
   }
 
   .usuario, .contraseña {
