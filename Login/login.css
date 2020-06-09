@@ -290,4 +290,8 @@
       background-attachment: fixed;
       background-repeat: no-repeat;
     }
+
+    .inputs {
+      padding: 10% 5% 10% 5%;
+    }
   }
