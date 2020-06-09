@@ -208,6 +208,8 @@
     float: left;
     transform: translate(-50%, -50%);
     color: white;
+    background: rgba(14, 11, 11, 0.596);
+    padding: 10% 10% 10% 10%;
   }
 
   .inputs h1 {
@@ -225,11 +227,31 @@
     font-size: 20px;
   }
 
-  input {
+  .entrada {
     background: transparent;
     border: none;
     outline: none;
     color: white;
     font-size: 20px;
     float: left;
+    font-family: cursive;
+  }
+
+  .submit {
+    background: transparent;
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 30px;
+    vertical-align: middle;
+    border: 2px solid rgb(57, 221, 57);
+    outline: none;
+    cursor: pointer;
+  }
+
+  .submit:hover {
+    background: rgba(128, 128, 128, 0.418);
+    color: rgb(37, 35, 35);
   }
