@@ -52,7 +52,7 @@ hr {
     text-align: center;
     font-size: larger;
     vertical-align: middle;
-    width: 140px;
+    width: 210px;
     height: 50px;
     animation: none;
     border: 1px solid white;
@@ -66,12 +66,18 @@ hr {
 }
 
 .log:hover {
-    width: 140px;
+    width: 210px;
     height: 50px;
     margin-top: 2%;
     padding-right: 2%;
     background: rgba(255, 255, 255, 0.637);
     color: rgb(41, 41, 41);
+}
+
+.user {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
 }
 
 .sesion_block {
