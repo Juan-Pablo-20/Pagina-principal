@@ -124,7 +124,7 @@ button {
     vertical-align: center;
 }
 
-.boton_uno, .boton_dos, .boton_tres, .boton_cuatro {
+.boton_uno, .boton_dos, .boton_tres {
     font-family: cursive;
     font-weight: bold;
     font-size: 40px;
@@ -146,12 +146,6 @@ button {
 
 .boton_tres:hover {
     background-image: url(img/tres.png);
-    background-size: 300px 350px;
-    color: rgba(0, 0, 0, 0.750);
-} 
-
-.boton_cuatro:hover {
-    background-image: url(img/cuatro.png);
     background-size: 300px 350px;
     color: rgba(0, 0, 0, 0.750);
 } 
