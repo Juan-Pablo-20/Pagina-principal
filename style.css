@@ -13,6 +13,32 @@ width: 100%;
 height: 380px;
 }
 
+@media screen and (max-width: 1000px) {
+  .seccion1 {
+    background-size: 100% 300px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .seccion1 {
+    background-size: 100% 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .seccion1 {
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .seccion1 {
+    height: auto;;
+    margin-bottom: none;
+  }
+}
+
 .contenedor1 {
 width: auto;
 height: auto;
@@ -44,8 +70,14 @@ border: none;
 @media screen and (max-width: 730px) {
 .bienvenido {
   font-size: 50px; 
+ }
 }
-}
+
+@media screen and (max-width: 560px) {
+  .bienvenido {
+    font-size: 50px; 
+   }
+  }
 
 .boxlogo {
 width: 100%;
@@ -55,7 +87,10 @@ background: rgb(41,41,41);
 @media screen and (max-width: 500px) {
 .boxlogo {
   height:80px;
-}
+  padding: none;
+  margin: none;
+  overflow: hidden;
+ }
 }
 
 .login {
@@ -94,6 +129,36 @@ background-attachment: fixed;
 width: 100%;
 height: 200%;
 padding-top: 1%;
+}
+
+@media screen and (max-width:850px) {
+  .seccion2 {
+    background-size: 100% 100%;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .seccion2 {
+    background-image: url(img/universe2.jpg);
+  }
+}
+
+@media screen and (max-width:600px) {
+  .seccion2 {
+    background-image: url(img/universe3.jpg);
+  }
+}
+
+@media screen and (max-width:500px) {
+  .seccion2 {
+    background-image: url(img/universe4.jpg);
+  }
+}
+
+@media screen and (max-width:400px) {
+  .seccion2 {
+    background-image: url(img/universe5.jpg);
+  }
 }
 
 .pregunta {
@@ -151,9 +216,10 @@ width: 50%;
 height: 300px;
 float: left;
 margin: 3%;
-background-image: url(img/nubes.gif);
+background-image: url(img/nubes.png);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 100% 100%;
+border-radius: 10%;
 }
 
 aside h2 {
@@ -183,13 +249,19 @@ padding-right: 1%;
 @media screen and (max-width: 850px) {
 aside {
   float: none;
-  width: 100%;
+  width: auto;
   height: auto;
   margin: 0px;
 }
+
+aside h2 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
 footer {
   float: none;
-  width: 100%;
+  width: auto;
   height: auto;
   margin: 0px;
   padding: 0px;
@@ -198,6 +270,6 @@ footer {
 
 @media screen and (max-width: 450px) {
 aside h2 {
-  font-size: 35px;
+  font-size: 50px;
 }
 }

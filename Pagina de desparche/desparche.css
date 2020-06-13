@@ -12,6 +12,10 @@ h1 {
     background: burlywood;
 }
 
+p {
+    text-align: justify;
+}
+
 nav {
     background: rgb(153, 51, 51);
 }
@@ -98,9 +102,13 @@ aside {
     height: 90%;
 }
 
+.sociales {
+    overflow: hidden;
+}
+
 .facebook, .twiter, .instagram, .youtube {
-    width: 15%;
-    height: 15%;
+    width: 30px;
+    height: 30px;
     margin-top: 10%;
     margin-bottom: 20%;
     list-style: none;
@@ -179,13 +187,10 @@ footer {
  .instagram:hover, .instagram:focus, .instagram:active,
  .facebook:hover, .facebook:focus, .facebook:active,
  .twiter:hover, .twiter:focus, .twiter:active {
-     width: 20%;
-     height: 20%;
-     margin-bottom: 0px;
-     margin-top: 0px;
-     margin-left: 0px;
-     margin-right: 0px;
-     display: inline-block;
+     width: 32px;
+     height: 32%;
+     margin: auto;
+     overflow: hidden;
  }
 
  @media screen and (max-width: 800px) {
