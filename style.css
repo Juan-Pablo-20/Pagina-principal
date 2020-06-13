@@ -22,6 +22,7 @@ height: 380px;
 @media screen and (max-width: 560px) {
   .seccion1 {
     background-size: 100% 200px;
+    background-attachment: fixed;
   }
 }
 
@@ -29,6 +30,7 @@ height: 380px;
   .seccion1 {
     background-size: 100% 150px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 
@@ -152,12 +154,14 @@ padding-top: 1%;
 @media screen and (max-width:500px) {
   .seccion2 {
     background-image: url(img/universe4.jpg);
+    background-attachment: fixed;
   }
 }
 
 @media screen and (max-width:400px) {
   .seccion2 {
     background-image: url(img/universe5.jpg);
+    background-attachment: fixed;
   }
 }
 
