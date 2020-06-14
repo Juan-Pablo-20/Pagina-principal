@@ -57,6 +57,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-weight: bolder;
 vertical-align: middle;
 border: none;
+animation: 3s bienvenido;
 }
 
 @media screen and (max-width: 1000px) {
@@ -81,9 +82,19 @@ border: none;
    }
   }
 
+  @keyframes bienvenido {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 .boxlogo {
 width: 100%;
 background: rgb(41,41,41);
+height: 130px;
 }
 
 @media screen and (max-width: 500px) {
@@ -101,11 +112,11 @@ overflow: hidden;
 }
 
 .login_boton {
-color: white;
-background: transparent;  
+color: rgb(194, 192, 192);
+background: -webkit-linear-gradient(top, rgb(41,41,41) 50%, greenyellow);  
 border: none;
-border-radius: 10%;
-border-bottom: 2px solid greenyellow;
+border-radius: 100%;
+border-bottom: 7px solid greenyellow;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 25px;
 font-weight: bold;
@@ -201,6 +212,7 @@ border-radius: 10%;
 border-bottom: 10px solid greenyellow;
 border-top: 5px solid gray;
 background: white;
+box-shadow: inset -0px -20px 40px rgb(41,41,41);
 font-size: 40px;
 font-family: cursive;
 font-weight: bold;
@@ -236,7 +248,8 @@ color: rgba(0, 132, 255, 0.692);
 }
 
 footer {
-background: rgba(100, 199, 75, 0.884);
+background: greenyellow;
+box-shadow: 10px 10px 20px white;
 width: 35%;
 height: 300px;
 float: right;
