@@ -127,6 +127,7 @@ height: 10%;
 margin: 2%;
 overflow: hidden;
 padding: 1%;
+transition: color 1s;
 }
 
 .login_boton:hover {
@@ -218,6 +219,7 @@ font-family: cursive;
 font-weight: bold;
 cursor: pointer;
 outline: none;
+transition: width 0.5s;
 }
 
 .boton_1:hover, .boton_2:hover, .boton_3:hover {
